@@ -17,11 +17,11 @@ function countVowels(inputString) {
       //* El resultado es la longitud del array
       //* de vocales encontradas
       let result = vowelCount.length;
-      console.log("Number of vowels is " + result);
+      return `Number of vowels is ${result}`;
     } else {
       //* Si no se encontraran vocales, muestra un 
       //* mensaje de cero.
-      console.log("Number of vowels is 0");
+      return "Number of vowels is 0";
     }
   }
   

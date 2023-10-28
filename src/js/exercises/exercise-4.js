@@ -7,12 +7,12 @@
 * “Hi, I am learning Javascript”
 */
 
-function removeVowels(inputString) {
-    let result = inputString.replace(/[aeiouAEIOU]/g, "");
+function removeVowels(inputString2) {
+    let result = inputString2.replace(/[aeiouAEIOU]/g, "");
   
-    console.log(result);
+    return result;
   }
   
-  let inputString = "Hi, I am learning Javascript";
-  showContent(4,removeVowels(inputString));
+  let inputString2 = "Hi, I am learning Javascript";
+  showContent(4,removeVowels(inputString2));
   
