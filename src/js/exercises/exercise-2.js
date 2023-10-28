@@ -14,10 +14,11 @@ let result = "";
 //* par o impar:
 function evenOrOdd(number) { 
     if (number % 2 === 0) {
-        result = console.log("Number " + number + " is even");
+        result = "Number " + number + " is even";
     } else {
-        result = console.log("Number " + number + " is odd");
+        result = "Number " + number + " is odd";
     }
     return result;
 }
-showContent(2, evenOrOdd);
+
+showContent(2, evenOrOdd(2));
