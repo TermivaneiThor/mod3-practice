@@ -4,8 +4,7 @@
 *Escribe una función llamada "repetitions" que recibe
 *de entrada una cadena de texto y 
 *devuelve otra cadena con cada letra repetida tantas veces
-*como la posición que ocupa  empezando la primera repetición
-*en mayúscula y el resto en minúscula
+*como la posición que ocupa  empezando la primera *repetición en mayúscula y el resto en minúscula
 
 *Ejemplos:
 * repetitions(‘code’) 
@@ -39,8 +38,7 @@ function repetitions(text) {
     return result;
   }
   
-  // Ejemplos de uso:
-  console.log(repetitions('code')); // Resultado: "COoDddEeee"
-  console.log(repetitions('list')); // Resultado: "LIiSssTttt"
-  console.log(repetitions('function')); // Resultado: "FUuNnnTtttIiiiiOoooooNnnnnnn"
-  
+  //* Ejemplos de uso:
+  //showContent(5,repetitions('code'));
+  //showContent(5,repetitions('list'));
+  showContent(5,repetitions('function'));
