@@ -1,6 +1,7 @@
 /* 
-EJERCICIO 10:
-Muestra un array con el título de las películas ordenadas alfabéticamente
+* EJERCICIO 10:
+! ______________________________________________
+* Muestra un array con el título de las películas     ordenadas alfabéticamente
 */
 
 function sortStrings(a, b) {

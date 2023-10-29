@@ -9,13 +9,13 @@
 //* Generar un array de 10 números aleatorios entre 0 y 100
 const randomNumbers = [];
 for (let i = 0; i < 10; i++) {
-  const randomNumber = Math.floor(Math.random() * 101);
+  let randomNumber = Math.floor(Math.random() * 101);
   randomNumbers.push(randomNumber);
 }
 
 //* Calcular el valor mínimo y máximo
-const minNumber = Math.min(...randomNumbers);
-const maxNumber = Math.max(...randomNumbers);
+let minNumber = Math.min(...randomNumbers);
+let maxNumber = Math.max(...randomNumbers);
 
 //* Retornar los resultados con template string :
 
