@@ -6,19 +6,10 @@
 * “Number 34 is even” ó “Number 13 is odd”
 */
 
-//* Definimos un número :
-let number = 34;
-let result = "";
-
-//* Comprobamos mediante una condicional si es
+//* Comprobamos mediante una expresión ternaria si es
 //* par o impar:
 function evenOrOdd(number) { 
-    if (number % 2 === 0) {
-        result = "Number " + number + " is even";
-    } else {
-        result = "Number " + number + " is odd";
-    }
-    return result;
+    return number % 2 === 0 ? `Number ${number} is even` : `Number ${number} is odd`;
 }
 
-showContent(2, evenOrOdd(2));
+showContent(2, evenOrOdd(34));
