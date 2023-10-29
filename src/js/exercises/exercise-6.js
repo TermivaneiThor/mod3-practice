@@ -17,7 +17,7 @@ for (let i = 0; i < 10; i++) {
 const minNumber = Math.min(...randomNumbers);
 const maxNumber = Math.max(...randomNumbers);
 
-//* Mostrar los resultados por pantalla
+//* Mostrar los resultados por pantalla :
 console.log("Números aleatorios:", randomNumbers);
 console.log("Valor mínimo:", minNumber);
 console.log("Valor máximo:", maxNumber);
